@@ -7,7 +7,7 @@ const boaTarde = function () {
 let boaNoite = () => console.log('Boa noite 2')
 // passar uma função como parametro para outra função
 function executarQualquerCoisa(fn) {
-    if(typeof fn == 'function') { // verificação para que o retorno seja uma função
+    if(typeof fn == 'function') { // verifica se é uma função, se for executa
         fn()
     }
 }
